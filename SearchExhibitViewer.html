@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MUSEO PAMBATA | Artifacts Module</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+    
+
+        
+        <link rel="icon" type="image/png" href="images/Museo Pambata Logo.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <style>
+            body{
+                
+                font-family: "TW Cen MT", sans-serif;
+                background-color: azure;
+                padding-top: 5%;
+                padding-left: 1%;
+                padding-right: 1%;
+                
+            }
+            
+            .panel{
+                
+                width: 100%;
+                padding: 3% 3% 3% 3%;
+                
+                
+            }
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+    
+            .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+                color: #E0E0E0;  
+            }
+            
+            .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+                color: beige;
+                font-family: "Wisdom Script Regular"; 
+            }
+            
+            .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+                color: #E0E0E0; 
+                background-color: #042E58 ;
+            }
+
+            .navbar-default {
+                    background-color: #064789;
+                    border-color: #030033;
+                    position: fixed;
+            }
+
+            .navbar-default .navbar-header .navbar-brand {
+                color: white;
+                font-family: "Wisdom Script Regular"; 
+            }
+            
+            .navbar-default .navbar-nav > li > a {
+               color: white; 
+            }
+            
+            .form-group{
+                
+                text-align: right;
+                
+            }
+            
+            .form-control{
+                
+                width: 40%;
+                padding: 0;
+            }
+            
+            .images{
+                
+                display: inline;
+                margin: 0px;
+                padding: 0px;
+                
+            }
+            
+            content {
+                
+                
+                display: block;
+                margin: 0px;
+                padding: 0px;
+                position: fixed;
+                top: 90px;
+                height: auto;
+                max-width: auto;
+                overflow-y: hidden;
+                overflow-x:auto;
+                white-space:nowrap;
+            
+            }
+
+           /** .my-wrapper{
+                background-color: #202020;
+                width: 9%;
+            }
+            
+            .my-wrapper:hover img{
+                opacity: 0.2;
+            }**/
+            tbody{
+                overflow:scroll;
+                white-space:nowrap;
+            }    
+            th{
+                text-align: center;
+            }
+            tr:hover {
+                background-color: #f5f5f5
+            }
+        </style>
+        
+
+    </head> 
+    <body>
+        
+        <center>
+        <div class="panel">
+            
+            <div class="form-group" >
+                <div align="right">
+                    <label for="username">SEARCH:</label>
+                    <input type="username" class="form-control" id="username" placeholder="Enter field" align="right">&nbsp; <span class="glyphicon glyphicon-search"></span>
+                </div>
+            </div>
+            
+            <div id="content">
+            <center><B>View all exhibits per category:</B></center>
+            <a href="VIEWER_Kalikasan.html"><img src="images/Kalikasan.png" alt="Kalikasan" class="images" title = "Kalikasan" width="7%" height="7%"/></a>&nbsp;
+            <img src="images/KatawanKo.png" alt="KatawanKo" class="images" title = "Katawan Ko" width="7%" height="7%"/>&nbsp;
+            <img src="images/PamilihangBayan.png" alt="PamilihangBayan" class="images" title = "Pamilihang Bayan" width="7%" height="7%"/>&nbsp;
+            <img src="images/MaynilaNoon.png" alt="MaynilaNoon" class="images" title = "Maynila Noon" width="7%" height="7%"/>&nbsp;
+            <img src="images/Tuklas.png" alt="Tuklas" class="images" title = "Tuklas" width="7%" height="7%"/>&nbsp;
+            <img src="images/TravelingExhibit.png" alt="Traveling" class="images" title = "Traveling Exhibit" width="7%" height="7%"/>&nbsp;
+            <img src="images/PaglakiKo.png" alt="Paglaki" class="images" title = "Paglaki Ko" width="7%" height="7%"/>&nbsp;
+            <img src="images/BataSaMundo.png" alt="Bata" class="images" title = "Bata Sa Mundo" width="7%" height="7%"/>&nbsp;
+            <img src="images/OtherAreas.png" alt="Other" class="images" title = "Other Areas" width="7%" height="7%"/>&nbsp;
+            <hr>
+
+<table class="table table-striped" width="80%" height="80%" border="2" background-color="dddddd">
+  
+    <thead>
+
+    <th>Artifact Photo</th>
+    <th>Details</th>
+    </thead>
+<tr>
+    <td align="center"><img src="images/img1.jpg" alt="description here" align="center"/></td>
+    <td>
+        <b>Accession Code:</b> SSS-111<br>
+        <b>Location:</b> Kalikasan<br>
+        <b>Category:</b> Artwork<br>
+        <b>Donor:</b> N/A<br>
+        <b>Acquisition Mode:</b> Fabrication<br>
+        <b>Acquisition Date:</b> 11/15/2011<br>
+        <b>Details:</b> Painting<br>
+        <b>Status:</b> On-display<br>
+    </td>
+</tr>
+<tr>
+<td><img src="images/img2.jpg" alt="description here" /></td>
+    <td>
+        <b>Accession Code:</b> S0S-121<br>
+        <b>Location:</b> Pamana<br>
+        <b>Category:</b> Pottery<br>
+        <b>Donor:</b> DMCI<br>
+        <b>Acquisition Mode:</b> Donation<br>
+        <b>Acquisition Date:</b> 10/12/2014<br>
+        <b>Details:</b> Bla blas Pottery<br>
+        <b>Status:</b> On-display<br>
+    </td>
+</tr> 
+<tr>
+    <td><img src="images/img3.jpg" alt="description here"/></td>
+    <td>
+        <b>Accession Code:</b> CHK-2G0<br>
+        <b>Location:</b> Global Billage<br>
+        <b>Category:</b> Instruments<br>
+        <b>Donor:</b> Air Asia<br>
+        <b>Acquisition Mode:</b> Loan<br>
+        <b>Acquisition Date:</b> 10/12/2016<br>
+        <b>Details:</b> Instruments on Display<br>
+        <b>Status:</b> On-display<br>
+    </td>
+</tr>
+</table>
+
+                
+                <!-- end of form --> 
+                </div></div>
+            </center>           
+                
+        
+    
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Museo Pambata</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp; Viewer Homepage</a></li>
+                <li><a href="LoginMock.php"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Sign Out</a></li>
+            </ul>
+          </div>
+        </nav> 
+        
+    </body>
+</html>

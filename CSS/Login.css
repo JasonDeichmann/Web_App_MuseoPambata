@@ -1,0 +1,70 @@
+
+    body {
+        
+        background-color: black;
+        background-image: url(../images/OFFICIAL_Background.PNG);
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: 100p% 100%;
+        
+    }
+
+.panel-headingz{
+    background-color: #caf7fd;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.form-signin input[type="text"] {
+        margin-bottom: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+        padding-top: 130px;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+
+    .header{
+            color: #caf7fd;
+            font-family: "Wisdom Script Regular";
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+            }
+
+    .panel-body {
+    font-family: "TW Cen MT";
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0px solid #cbffcb;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
